@@ -1,0 +1,19 @@
+{
+  "name": "website-unit-test",
+  "version": "1.0.0",
+  "description": "unit test of website",
+  "scripts": {
+    "test": "test",
+    "start": "cypress open",
+    "tutorial": "node express-app/app.js & cypress open",
+    "app": "node express-app/app.js"
+  },
+  "author": "sylhare",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.3.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.0"
+  }
+}
